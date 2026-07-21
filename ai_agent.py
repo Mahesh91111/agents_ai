@@ -63,6 +63,6 @@ while True:
         }
     )
 
-    print("\nAssistant:")
+    print("\nAssistant:") ## This is print statement for printing the data
     print(result["messages"][-1].content)
     print("-" * 50)
