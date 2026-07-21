@@ -1,23 +1,23 @@
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv ### loaddot envgi
 
 from langchain.tools import tool
 from langchain.agents import create_agent
 from langchain_groq import ChatGroq
 
 # Load environment variables
-load_dotenv()
+load_dotenv() ## dotenv files is loaded
 
 # Create Groq LLM
 llm = ChatGroq(
     model="llama-3.3-70b-versatile", ##model
-    temperature=0 ##No changes
+    temperature=0 ##No changess
 )
 
 # -----------------------------
 # Tool
 # -----------------------------
-@tool
+@tool  ##Tool is created
 def get_weather(city: str) -> str:
     """Get the weather for a city."""
 
@@ -36,7 +36,7 @@ def get_weather(city: str) -> str:
 
 # -----------------------------
 # Create Agent
-# -----------------------------
+# ----------------------------- ## Agent is createdssss
 agent = create_agent(
     model=llm,
     tools=[get_weather],
