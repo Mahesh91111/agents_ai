@@ -11,7 +11,7 @@ load_dotenv()
 # Create Groq LLM
 llm = ChatGroq(
     model="llama-3.3-70b-versatile", ##model
-    temperature=0
+    temperature=0 ##No changes
 )
 
 # -----------------------------
