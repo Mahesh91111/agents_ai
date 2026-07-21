@@ -36,7 +36,7 @@ def get_weather(city: str) -> str:
 
 # -----------------------------
 # Create Agent
-# ----------------------------- ## Agent is createds
+# ----------------------------- ## Agent is createdssss
 agent = create_agent(
     model=llm,
     tools=[get_weather],
