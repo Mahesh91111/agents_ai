@@ -1,5 +1,5 @@
 import os ##  THIS CODE IS DEVELOP BY MAHESHssss and ai_data_engineer_developer and is umahesh varma
-from dotenv import load_dotenv ### loaddot envgi
+from dotenv import load_dotenv 
 
 from langchain.tools import tool
 from langchain.agents import create_agent
@@ -66,3 +66,5 @@ while True:
     print("\nAssistant:") ## This is print statement for printing the data
     print(result["messages"][-1].content)
     print("-" * 50)
+    
+## code is tell About the weather information for different cities using a Groq LLM and LangChain tools. The agent responds to user queries about the weather in specified cities.
