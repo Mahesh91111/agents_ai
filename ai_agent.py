@@ -37,7 +37,7 @@ def get_weather(city: str) -> str:
 # -----------------------------
 # Create Agent
 # ----------------------------- ## Agent is created by mahesh this agent is helpful for weather information retirved
-agent = create_agent(
+agent = create_agent(  ##This is line is used to create the agent
     model=llm,
     tools=[get_weather],
     system_prompt="You are a helpful weather assistant."
