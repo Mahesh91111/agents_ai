@@ -68,3 +68,4 @@ while True:
     print("-" * 50)
     
 ## code is tell About the weather information for different cities using a Groq LLM and LangChain tools. The agent responds to user queries about the weather in specified cities.
+## and thens it provides the user with the requested weather information.
